@@ -26,3 +26,39 @@ An alternate path is to use the esp32tool.zip I provide in the workspace and swa
 
 This firmware is configured for 230,400 baud, so don't forget to change to that value in ChiliPeppr when you connect to the board. If you try the default 115,200 it will fail.
 
+# CAD Design Fusion 360
+
+The CAD design of the extended wrist cap with the electronics inside is available at https://gallery.autodesk.com/fusion360/projects/robot-arm-esp32-drv8825-actuator-controller
+
+# How to Upload the Lua Code
+
+The ChiliPeppr ESP32 for Lua Workspace was used to program the board and is available at http://chilipeppr.com/esp32
+
+Video on how to use the ESP32 for Lua workspace to upload firmware and Lua code on your ESP32. https://www.youtube.com/watch?v=njAeHfoVIoY
+
+# Thingiverse
+
+Jeff Kerr's (LoboCNC) original 3D printed robot arm design is on Thingiverse at https://www.thingiverse.com/thing:3327968/
+
+# PCB Components
+
+ESP32 Wemos $8 (Many ESP32 devices are cheaper, but this is the smallest size broadly available to fit inside the small actuators)
+https://www.aliexpress.com/item/ESP32-wemos-ESP32-WiFi-Modules-Bluetooth-Dual-ESP-32-ESP-32S-ESP8266/32815190965.html
+
+DRV8825 Stepper Board $0.95
+https://www.aliexpress.com/item/5pcs-lot-3D-Printer-Stepstick-Drv8825-Stepper-Motor-Driver-Reprap-4-PCB-Board-Free-shipping-replace/32514641632.html
+
+DC to DC Converter $0.90 (Pick the 5V version, not 3.3V)
+https://www.aliexpress.com/item/DC-DC-Power-Supply-Module-Step-Down-3A-output-24V-12V-to-5V-3-3V-Buck/32904709711.html
+
+WS2812B LED $0.15 per (Choose white and WS2812B)
+https://www.aliexpress.com/item/10-1000pcs-4-Pin-WS2812B-WS2812-LED-Chip-Heatsink-5V-5050-RGB-WS2811-IC-Built-in/32634454437.html
+
+Slide Switch $0.29 for 20 pieces
+https://www.aliexpress.com/item/20Pcs-Interruptor-on-off-mini-Slide-Switch-SS12D00-SS12D00G3-3pin-1P2T-2-Position-High-quality-toggle/32964400942.html
+
+Screw Terminal
+https://www.aliexpress.com/item/20-pcs-2-Pin-Screw-blue-green-PCB-Terminal-Block-Connector-5mm-Pitch/32814618602.html
+
+26AWG Silcone Ultra Flexible Wire for 24v (Use 2 of the 4 wires)
+https://www.aliexpress.com/item/2metre-26AWG-28AWG-30AWG-Silicone-Wire-Ultra-Flexiable-Test-Line-3P-4P-6P-0-08mm-Tinned/32870367030.html
