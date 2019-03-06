@@ -9,6 +9,10 @@ A switch has been added for when you're using the USB port for programming the E
 
 The wrist cap has been extended from Jeff Kerr's original design to fit this larger board.
 
+# Eagle Board and Schematic
+
+The .brd and .sch files are Eagle board and schematic files. You can download Eagle for free to view or edit the boards or just use the .zip file in the "pcb fabricator" folder to send to your board house like JLCPCB where it only costs $2 to get your boards made.
+
 # ESP32 Firmware
 
 You need to upload the firmware in this repo to your ESP32 using esptool.py which is available on the Espressif website. There's also a video on http://chilipeppr.com/esp32 on how to use the workspace. This video shows you how to upload the firmware and use the workspace to upload code.
