@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-05-01T21:46:50Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.2,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "pcb esp32 rev6"
+        },
+        "Owner": "John Lauer <jlauer@zipwhip.com>",
+        "Size": {
+            "X": 37,
+            "Y": 22.5
+        }
+    }
+}
